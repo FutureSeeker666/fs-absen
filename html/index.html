@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="startscreen">
+				<h1 style="margin-left: 150px; margin-top: 50px; font-size: 45px; font-family: 'Secular One', sans-serif;
+			    	margin: 0;
+    				position: absolute;
+    				top: 50%;
+    				left: 50%;
+    				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);">Absensi</h1>
+				<button class="button" id="start">Mulai</button>
+			</div>
+
+
+			<!-- Form -->
+				<!--<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  				<label for="vehicle1"> Absen Masuk</label><br>
+				<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  				<label for="vehicle1"> Absen Keluar</label><br><br>
+				-->
+
+			<div id="info">
+				
+				<label class="label">PANGKAT/ JABATAN :</label>
+				<input id="firstname" type="text" placeholder="Type Here" class="input"  required="true" name="need" ><br>
+				<label class="label1">NAMA :</label>
+				<input id="lastname" type="text" placeholder="Type Here" class="input"  required="true" name="need" ><br>
+				
+				<strong class="warn"  id="warn">Harap input dengan benar!</strong>
+
+				<label class="label4">JENIS KELAMIN :</label>
+				<select  class="gender" id="gender" required="true">
+					<option value="Laki-Laki">Laki-Laki</option>
+					<option value="Perempuan">Perempuan</option>
+				</select>
+
+				<label class="label8">On Duty / Off Duty :</label>
+				<select  class="box1" id="why" required="true">
+					<option value="onduty">On Duty</option>
+					<option value="offduty">Off Duty</option>
+				</select>
+				
+				<button class="sumbit" id="sumbit">Enter</button>
+				
+			</div>
+
+			<!-- Done -->
+
+			<div id="done">
+				<strong class="thanks">Terimakasih!!</strong>
+				<button class="exit" id="exit">Keluar</button>
+			</div>
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

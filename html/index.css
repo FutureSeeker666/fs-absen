@@ -1,0 +1,275 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 300px;
+    width: 800px;
+    border-radius: 10px;
+    opacity: 150px;
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid rgb(50, 50, 50);
+    box-shadow: 0 0 10px 3px black;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+
+button {
+
+    text-align: center;
+    width: 100px;
+    font-size: 12px;
+    background: rgb(15, 15, 15);
+    border: 1px solid rgb(70, 70, 70);
+    transition: box-shadow 0.2s ease-in, background 0.2s ease-in;
+    padding: 2px;
+    color: rgb(25, 25, 25);
+}
+
+
+
+.logo{
+    position: fixed;
+    top: 4%;
+    left: 2%;
+
+    width:300px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.button{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    width:140px;
+    height: auto;
+    margin: 0;
+	font-size:20px;    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	color:#ffffff;
+}
+
+
+button:hover{
+    box-shadow: 0 0 2px 0.5px white inset;
+    background: rgb(25, 25, 25);
+    
+}
+
+
+.input{
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    background: rgb(25, 25, 25);
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    width: 34%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+
+    color: rgb(253, 253, 253);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+	outline:none;
+    margin-top: 3%;
+
+}
+
+.label {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	margin-top: -2.8%;
+  
+}
+
+.label1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -0.5%; 
+
+}
+
+
+.label2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -0.5%; 
+}
+
+.label3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 47%;
+    margin-top:-20.5%;
+}
+.label4{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+}
+.label5{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.label8{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+}
+.label9{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.masuk1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+}
+.keluar1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 53%;
+}
+.box1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 34%;
+    height: 2.8em;
+    background: rgb(25, 25, 25);
+    color: white;
+    border: 1px solid #ffffff;
+
+}
+.box2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+}
+.jam1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    width: 8%;
+    height: 2.8em;
+    background: rgb(207, 207, 207);
+    color: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+}
+
+
+.why{
+    position: absolute;
+    width: 30em;
+    height: 10em;
+    background: rgb(25, 25, 25);
+    color: white;
+    border: 1px solid #ffffff;
+    color:#ffffff;
+    top: 34%;
+    left: 50%;
+}
+
+.gender{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 34%;
+    height: 2.8em;
+    background: rgb(25, 25, 25);
+    color: white;
+    border: 1px solid #ffffff;
+
+}
+.sumbit{
+    position: fixed;
+    width:140px;
+    height: auto;
+    margin: 0;
+	font-size:15px;    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+    font-size: 20px;
+	color:#ffffff;
+    
+
+}
+
+
+.warn{
+    color: #c92b2b;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 10%;
+
+}
+
+.thanks{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+
+
+}
+
+.exit{
+    position: fixed;
+    top: 65%;
+    left: 42%;
+    color: #ffffff;
+
+    width: 15%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    background: rgb(15, 15, 15);
+    border: 1px solid rgb(70, 70, 70);
+    transition: box-shadow 0.2s ease-in, background 0.2s ease-in;
+    outline: none;
+}
+
+
